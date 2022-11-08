@@ -8,7 +8,7 @@ var sprites = {
  explosion: { sx: 0, sy: 64, w: 64, h: 64, frames: 12 },
  enemy_missile: { sx: 9, sy: 42, w: 3, h: 20, frame: 1, }
 };
-
+var test={};
 var enemies = {
   straight: { x: 0,   y: -50, sprite: 'enemy_ship', health: 10,
               E: 100 },
